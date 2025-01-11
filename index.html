@@ -31,6 +31,21 @@
             let expireDateVar = expireDateInit.includes("∞") ? "∞" : localStorage.getItem("lang") == "fa" ? new Date(expireDateInit).toLocaleString("fa-IR-u-nu-latn").replace(",", " ") : expireDateInit;
             let appsJson = {
                 Android: {
+                V2rayInsight: {
+                    url: [
+                        {
+                            name: "Arm64",
+                            url: "https://github.com/edydevelopeler/JekiMuachhh/releases/download/anyar/v2rayinsight_1.1.8_arm64-v8a.apk",
+                            best: false,
+                        },
+                        {
+                            name: "Armeabi",
+                            url: "https://github.com/edydevelopeler/JekiMuachhh/releases/download/anyar/v2rayinsight_1.1.8_armeabi-v7a.apk",
+                            best: false,
+                        },
+                    ],
+                    tutorial: "",
+                },
                 GatchaNG: {
                     url: [
                         {
