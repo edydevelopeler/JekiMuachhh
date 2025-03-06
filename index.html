@@ -17,7 +17,7 @@
           alert("Mana Tahan Edy 💦");
         }
         alert("☘️ Bersama Edy Membangun Negeri ☘️");
-        alert("❏ Khusus Server ini ❏\n\n❏ Terutama Bagi user HP ❏\n├ Gunakan Apk yang sudah disediakan\n├ Yang berada di bagian Download Apk\n├ Karena sudah menggunakan Xray Core versi terbaru\n\n❏ Untuk user HTTP Upgrade ❏\n├ Bisa memakai Apk yang sudah disediakan")
+        alert("❏ Khusus Server ini ❏\n\n❏ Terutama Bagi user HP ❏\n├ Gunakan Apk yang disarankan\n├ Agar tidak mengalami DC\n├ Yang berada di bagian Download Apk\n├ Karena sudah menggunakan Xray Core versi terbaru\n\n❏ Untuk user HTTP Upgrade ❏\n├ Bisa memakai Apk yang sudah disediakan")
         alert("❏ Ingfo Port Alternatif :\n├ TLS : 443\n├ NTLS : 80, 69, 8880\n\n❏ Regards : MrZbn X IGH Project ❏");</script>
         <script>
             const dataLimit = "{% if not user.data_limit %}∞{% else %}{{ user.data_limit }}{% endif %}";
@@ -31,31 +31,16 @@
             let expireDateVar = expireDateInit.includes("∞") ? "∞" : localStorage.getItem("lang") == "fa" ? new Date(expireDateInit).toLocaleString("fa-IR-u-nu-latn").replace(",", " ") : expireDateInit;
             let appsJson = {
                 Android: {
-                V2rayInsight: {
-                    url: [
-                        {
-                            name: "Arm64",
-                            url: "https://github.com/edydevelopeler/JekiMuachhh/releases/download/anyar/v2rayinsight_1.1.8_arm64-v8a.apk",
-                            best: false,
-                        },
-                        {
-                            name: "Armeabi",
-                            url: "https://github.com/edydevelopeler/JekiMuachhh/releases/download/anyar/v2rayinsight_1.1.8_armeabi-v7a.apk",
-                            best: false,
-                        },
-                    ],
-                    tutorial: "",
-                },
                 GatchaNG: {
                     url: [
                         {
                             name: "Arm64",
-                            url: "https://github.com/lunoxxdev/nganuEdyirenkCintaJekiPolepel/releases/download/edy/GatchaNG_v1.8.3-19.514._UWU_UI_V16_arm64-v8a.apk",
+                            url: "https://github.com/edydevelopeler/JekiMuachhh/releases/download/anyar/GatchaNG-1.7.30.universal.apk",
                             best: false,
                         },
                         {
                             name: "Armeabi",
-                            url: "https://github.com/lunoxxdev/nganuEdyirenkCintaJekiPolepel/releases/download/edy/GatchaNG_v1.8.3-19.514._UWU_UI_V16_armeabi-v7a.apk",
+                            url: "https://github.com/edydevelopeler/JekiMuachhh/releases/download/anyar/GatchaNG-1.7.30.universal.apk",
                             best: false,
                         },
                     ],
